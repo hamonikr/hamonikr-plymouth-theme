@@ -1,3 +1,9 @@
+hamonikr-plymouth (1.1.0) stable; urgency=medium
+
+  * Release for Ubuntu 22.04
+
+ -- HamoniKR <pkg@hamonikr.org>  Fri, 08 Sep 2023 12:56:26 +0900
+
 hamonikr-plymouth (1.0.0) stable; urgency=medium
 
   * Release for HamoniKR-X
