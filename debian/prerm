@@ -9,7 +9,7 @@ case "$1" in
     remove|deconfigure|failed-upgrade)
 
         update-alternatives \
-            --remove text.plymouth /usr/share/plymouth/themes/hamonikr-x/hamonikr-x.plymouth
+            --remove text.plymouth /usr/share/plymouth/themes/hamonikr/hamonikr.plymouth
 
         update-initramfs -u
     ;;

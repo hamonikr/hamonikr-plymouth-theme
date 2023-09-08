@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # remove first
-sudo update-alternatives --remove default.plymouth /usr/share/plymouth/themes/hanla/hanla.plymouth 
-sudo rm -rf /usr/share/plymouth/themes/hanla
-sudo cp -av usr/share/plymouth/themes/hanla /usr/share/plymouth/themes
+sudo update-alternatives --remove default.plymouth /usr/share/plymouth/themes/hamonikr/hamonikr.plymouth 
+sudo rm -rf /usr/share/plymouth/themes/hamonikr
+sudo cp -av usr/share/plymouth/themes/hamonikr /usr/share/plymouth/themes
 
 sudo update-alternatives \
     --install /usr/share/plymouth/themes/default.plymouth default.plymouth \
-    /usr/share/plymouth/themes/hanla/hanla.plymouth 100
+    /usr/share/plymouth/themes/hamonikr/hamonikr.plymouth 100
 
 sudo update-alternatives --config default.plymouth  #here, choose the number of the theme you want to use then hit enter
 sudo update-initramfs -u

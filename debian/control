@@ -1,10 +1,10 @@
-Source: hamonikr-plymouth
+Source: hamonikr-plymouth-theme
 Section: admin
 Priority: optional
 Maintainer: Kevin Kim <chaeya@gmail.com>
 Standards-Version: 4.1.4
 
-Package: hamonikr-plymouth
+Package: hamonikr-plymouth-theme
 Architecture: all
 Depends: plymouth-themes
 Conflicts: 

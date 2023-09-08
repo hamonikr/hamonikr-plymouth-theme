@@ -10,11 +10,11 @@ case "$1" in
 	if [ -d /usr/share/plymouth/themes/hamonikr-x ]; then
         update-alternatives \
             --install /usr/share/plymouth/themes/default.plymouth default.plymouth \
-            /usr/share/plymouth/themes/hamonikr-x/hamonikr-x.plymouth 300
+            /usr/share/plymouth/themes/hamonikr/hamonikr.plymouth 300
 
         update-alternatives \
             --set default.plymouth \
-            /usr/share/plymouth/themes/hamonikr-x/hamonikr-x.plymouth
+            /usr/share/plymouth/themes/hamonikr/hamonikr.plymouth
 
         update-initramfs -u
     fi

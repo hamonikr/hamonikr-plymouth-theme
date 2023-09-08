@@ -1,0 +1,9 @@
+[Plymouth Theme]
+Name=HamoniKR
+Description=Script example plugin
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/hamonikr
+ScriptFile=/usr/share/plymouth/themes/hamonikr/hamonikr.script
+
