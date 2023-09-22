@@ -1,3 +1,10 @@
+hamonikr-plymouth-theme (1.1.1) stable; urgency=medium
+
+  * Release for Ubuntu 22.04
+   - Fixed wrong directory name
+
+ -- HamoniKR <pkg@hamonikr.org>  Fri, 22 Sep 2023 14:49:13 +0900
+
 hamonikr-plymouth-theme (1.1.0) stable; urgency=medium
 
   * Release for Ubuntu 22.04
